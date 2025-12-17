@@ -6,6 +6,14 @@ public class test{
 	
 
 	public static void main(String[] args) {
-		System.out.println(17 << 3);
+		
+		int n = 5;
+		for(int row = n; row >= 1; row--) {
+			for(int col = row; col <= n; col++) {
+				System.out.print(col);
+		}
+		
+		System.out.println();
+		}
 	}
 }

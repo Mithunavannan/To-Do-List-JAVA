@@ -25,7 +25,8 @@ public class todo {
                         deleteTask();
                         break;
                     case 4:
-                        System.out.println("Goodbye!");;
+                        System.out.println("Goodbye!");
+                        Exittask();
                         break;    
                     default:
                         System.out.println("Invalid choice. Enter a valid number");;
@@ -88,6 +89,9 @@ public class todo {
                 scanner.nextLine();
             }
         }
+    }
+    public static void Exittask() {
+        System.exit(0);
     }
 
 
